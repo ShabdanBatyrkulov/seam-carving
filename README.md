@@ -1,5 +1,5 @@
 # seam-carving
-LeaderboardSeam-carving is a content-aware image resizing technique where the image is reduced in size by one pixel of height (or width) at a time.
+Seam-carving is a content-aware image resizing technique where the image is reduced in size by one pixel of height (or width) at a time.
 
 <img src="https://github.com/andrewdcampbell/seam-carving/blob/master/demos/visuals/lake_shrink.gif" width="900">
 
