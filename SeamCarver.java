@@ -132,7 +132,7 @@ public class SeamCarver {
         Picture new_pic = new Picture(width(), height() - 1);
         for (int x = 0; x < width(); x++) {
             int deleted = 0;
-            for (int y = 0; y < height(); y++) {
+            for (int y = 0; y + 1 < height(); y++) {
                 if (y == seam[x]) {
                     deleted = 1;
                 }
